@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    <div class="main">
+        <h1> Todo List </h1>
+    </div>
+        <div>
+            <input type="text" id="Todo_items" placeholder="Add New Todo Task">
+            <button onclick="addtodo()" id="addtodolist"> Add to List </button>
+            <button onclick="deleteAll()" id="deleteAllitems"> Delete All </button>
+        </div>
+
+        <div>
+            <ul id="list">    
+            </ul>
+        </div>
+        
+    </div>    
+    <div class="fixed-footer">
+        <div class="container">Made By Unzila Chand Siddiqui...</div>        
+    </div>
+    
+</body>
+<script src="app.js"></script>
+</html>

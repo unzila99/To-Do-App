@@ -1,0 +1,267 @@
+body{
+    background-image: url('images/backgroundtodo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin: auto;
+    margin-top: 0;
+    
+}
+.main{
+   background-color: rgb(83, 203, 250);
+    font-size: 30px;
+    text-align: center;
+    color: indigo;  
+    font-weight: bold; 
+    
+}
+
+#Todo_items{
+    width: 400px;
+    height: 50px;
+    border: none;
+   font-size: 25px;
+    border-radius: 100px;
+    text-align: center;
+    outline: 0;
+
+
+}
+
+#addtodolist{
+    border-radius: 100px;
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    margin-left: 30px;
+    background-color: rgb(14, 14, 194);
+    color: white;
+    font-weight: bold;
+    outline: 0;
+    cursor: pointer;
+}
+
+#deleteAllitems{
+    border-radius: 100px;
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    margin-left: 20px;
+    background-color:rgb(235, 10, 10);
+    color: white;
+    font-weight: bold;
+    outline: 0;
+    cursor: pointer;
+}
+
+.btn{
+    border-radius: 100px;
+    text-align: center;
+    width: 110px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    margin: auto;
+    margin-left: 60px;
+    background-color: seagreen;
+    color: white;
+    margin-top: 70px;
+    outline: 0;
+    cursor: pointer; 
+   
+}
+
+
+.edit{
+    border-radius: 100px;
+     text-align: center;
+    width: 110px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    margin-left: 250px;
+    background-color: violet;
+    color: white;
+    margin-top: 70px;
+    outline: 0;
+    cursor: pointer; 
+   
+    
+}
+
+
+#list{
+    font-size: 35px;
+    list-style-type: none;
+    text-align: center;
+    word-break: keep-all;
+    display: inline;
+}
+
+.fixed-footer{
+    bottom: 0px;
+    width: 100%;
+    position: fixed;        
+    padding: 10px 0;
+    background-color: lightblue;
+    font-size: 25px;
+    color: indigo;  
+    font-weight: bold;
+
+    
+}
+.container{
+    width: 90%;
+    margin: 0 auto; /* Center the DIV horizontally */
+}
+
+
+@media screen and (max-width:400px){
+    body{
+        background-image: url('images/backgroundtodo.jpg');
+        background-repeat: no-repeat;
+        text-align: center;
+        background-size: 500%;
+        margin: auto; 
+        margin-top: 0;
+       
+    }
+}
+
+
+@media screen and (max-width:400px){
+    .main{
+        background-color: rgb(83, 203, 250);
+         font-size: 20px;
+         text-align: center;
+         color: indigo;  
+         font-weight: bold; 
+     }
+}
+
+
+
+@media screen and (max-width:400px){
+    #Todo_items{
+        width: 320px;
+        height: 35px;
+        border: none;
+       font-size: 20px;
+        border-radius: 100px;
+        text-align: center;
+        outline: 0;
+    
+    }
+}
+
+@media screen and (max-width:400px){
+    #addtodolist{
+        border-radius: 100px;
+        text-align: center;
+        width: 100px;
+        height: 35px;
+        font-size: 15px;
+        border: none;
+        margin-left: 20px;
+        background-color: rgb(14, 14, 194);
+        color: white;
+        font-weight: bold;
+        outline: 0;
+        cursor: pointer;
+    }
+    
+}
+
+
+@media screen and (max-width:400px){
+    #deleteAllitems{
+        border-radius: 100px;
+        text-align: center;
+        width: 100px;
+        height: 35px;
+        font-size: 15px;
+        border: none;
+        margin-left: 20px;
+        background-color:rgb(235, 10, 10);
+        color: white;
+        font-weight: bold;
+        outline: 0;
+        cursor: pointer;
+        margin-top: 5px;
+    }
+}
+
+
+@media screen and (max-width:400px){
+    .btn{
+        border-radius: 100px;
+        text-align: center;
+        width: 90px;
+        height: 30px;
+        font-size: 15px;
+        font-weight: bold;
+        border: none;
+        margin-left: 10px;
+        background-color: seagreen;
+        color: white;
+        outline: 0;
+        cursor: pointer; 
+        position: relative;
+        
+    }
+}
+
+
+@media screen and (max-width:400px){
+.edit{
+    border-radius: 100px;
+     text-align: center;
+    width: 90px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    margin-left: 100px;
+    background-color: violet;
+    color: white;
+    outline: 0;
+    cursor: pointer; 
+    position: relative;
+    
+}
+}
+
+@media screen and (max-width:600px){
+#list{
+    font-size: 25px;
+    list-style-type: none;
+    text-align: center;
+    display: inline;
+
+}
+}
+
+@media screen and (max-width:400px){
+    .fixed-footer{
+        bottom: 0px;
+        width: 100%;
+        position: fixed;        
+        padding: 10px 0;
+        background-color: lightblue;
+        font-size: 25px;
+        color: indigo;  
+        font-weight: bold;
+    
+        
+    }
+    .container{
+        width: 90%;
+        margin: 0 auto; /* Center the DIV horizontally */
+    }
+}
